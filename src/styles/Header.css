@@ -1,0 +1,41 @@
+.header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: 0.1px solid lightgrey;
+  padding: 10px 0px;
+  width: 100%;
+  z-index: 999;
+}
+
+.leftHeader {
+  display: flex;
+}
+
+.leftHeader > img {
+  object-fit: contain;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.searchHeader {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  border-radius: 5px;
+  height: 22px;
+  color: gray;
+  background-color: #eef3f8;
+}
+
+.searchHeader > input {
+  outline: none;
+  border: none;
+  background: none;
+}
+
+.rightHeader {
+  display: flex;
+}
